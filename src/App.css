@@ -54,3 +54,23 @@
   margin-left: 6px;
   border-radius: 4px;
 }
+
+@media screen and (max-width:504px) {
+  .searchForm{
+    margin-left: 17px;
+    padding: 5px;
+  }
+
+  .app_healthLabels{
+    margin-top: 10px;
+    margin-left: 86px;
+    padding: 5px;
+  }
+
+  .app_recipes{
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 190px;
+    align-items: baseline;
+  }
+}
